@@ -1,12 +1,9 @@
-#loadingParent{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
 #loadingChild{
    position:absolute;
    top:50%;
    left:50%;
-   transform: translate(-50%, -50%)
+   transform: translate(-50%, -50%);
+   font-size: 50px;
+   font-family: 'Rubik', sans-serif;
+   width:100%;
 }

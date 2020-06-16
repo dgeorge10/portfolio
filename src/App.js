@@ -22,11 +22,11 @@ class App extends React.Component {
 	  return (
 		 <div className="App">
 		 {loading ? <Loading></Loading> :
-
-			<body className="App-body">
+			
+			//Body of the app
+			<body>
 				Hello I am Dennis George	
 			</body>
-
 
 		 }
 		 </div>
