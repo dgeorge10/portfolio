@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Loading from './components/loading/loading.js';
+import Fade from 'react-reveal/Fade';
 
 class App extends React.Component {
 	constructor(props){
@@ -22,13 +22,12 @@ class App extends React.Component {
 	  return (
 		 <div className="App">
 		 {loading ? <Loading></Loading> :
-			
-			//Body of the app
-			<body>
-				Hello I am Dennis George	
-			</body>
-
-		 }
+			<Fade bottom>
+			   <div id="content">
+				  Welcome
+			   </div>
+			</Fade>
+	     }
 		 </div>
 	  )
 	};
