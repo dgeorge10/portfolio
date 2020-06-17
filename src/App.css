@@ -1,8 +1,8 @@
 .App {
-  text-align: center;
+	text-align: center;
+	min-height: 100vh;
+	font-family: 'Rubik', sans-serif;
+	background-color: #262626;
 }
 
-#content {
-   font-family: 'Rubik', sans-serif;
-   padding: 10px;
-}
+

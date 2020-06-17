@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Loading from './components/loading/loading.js';
-import Fade from 'react-reveal/Fade';
+import Introduction from './components/intro/intro.js'
 
 class App extends React.Component {
 	constructor(props){
 	   super(props);
 	   this.state = {
-		  loading:true
+		  loading:false
 	   }
 	}
 
@@ -22,12 +22,8 @@ class App extends React.Component {
 	  return (
 		 <div className="App">
 		 {loading ? <Loading></Loading> :
-			<Fade bottom>
-			   <div id="content">
-				  Welcome
-			   </div>
-			</Fade>
-	     }
+			<Introduction></Introduction>	
+		 }
 		 </div>
 	  )
 	};
