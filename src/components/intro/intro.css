@@ -76,8 +76,9 @@ h6 {
 
    #i-am-a-container{
 	  position: relative;
-	  height: 50vh;
+	  height: 30vh;
 	  margin: 0 auto;
+	  text-align: center;
    }
 
    h1 {
