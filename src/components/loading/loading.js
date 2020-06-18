@@ -7,7 +7,7 @@ export default class Loading extends React.Component{
    render(){
 	  return (
 		 <div id="loadingChild">
-		 	<p>Hi, I'm Dennis :)</p>
+		 	<p><strong>Hi, I'm Dennis :)</strong></p>
 		 	<center>
 		 		<BounceLoader color={"#B15353"} />
 		 	</center>
