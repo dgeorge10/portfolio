@@ -4,16 +4,14 @@
 	background-color: #262626 !important;
    	height: 100vh;
 	overflow: hidden;
-	border: 16px solid #B15353;
+	border: 32px solid #B15353;
 	box-sizing: border-box;
-	position: flex;
 }
 
 #profile-pic-container{
    position: relative;
    height: 100vh;
    margin: 0 auto;
-   flex: 0 0 50%;
 }
 
 #profile-pic {
@@ -26,16 +24,67 @@
    top: 0;
    bottom: 0;
    left: 0;
-   flex: 0 0 50%;
+   right: 0;
 }
 
 #i-am-a-container{
-   position: absolute;
+   position: relative;
    height: 100vh;
    margin: 0 auto;
    display: flex;
-   align-items: center;
    justify-content: center;
    flex-direction:column;
-   padding-left: 20%;
+}
+
+h1 {
+   font-size: 64px !important;
+   float: left;
+}
+
+h6 {
+   font-size: 32px !important;
+}
+
+
+@media screen and (max-width: 950px){
+   #intro {
+	  font-family: inherit;
+	  color: #F5EFE9; 
+	  background-color: #262626 !important;
+	  height: 100vh;
+	  overflow: hidden;
+	  border: 16px solid #B15353;
+	  box-sizing: border-box;
+   }
+
+
+   #profile-pic-container{
+	  position: relative;
+	  height: 50vh;
+	  margin: 0 auto;
+   }
+
+   #profile-pic {
+	  position:relative;
+	  max-width: 90vmin;
+	  max-height: 90vmin;
+	  border-radius: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+   }
+
+   #i-am-a-container{
+	  position: relative;
+	  height: 50vh;
+	  margin: 0 auto;
+   }
+
+   h1 {
+	  font-size: 32px !important;
+   }
+
+   h6 {
+	  font-size: 16px !important;
+   }
 }
