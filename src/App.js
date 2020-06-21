@@ -51,7 +51,7 @@ class App extends React.Component {
 						school that was far enough away so that I had to move out, but also close
 						enough for me to take quick trips home whenever I wanted. Drexel met this
 						requirement, and had an added bonus of having Computer Science in its own
-						college instead of being thrown in with Arts & Sciences.
+						college instead of being with Arts & Sciences.
 						<br />
 						<br />
 						Ever since, I have been in love with Philly, and am excited for what the
@@ -94,7 +94,7 @@ class App extends React.Component {
 								title="Full Stack Developer on Corporate Applications"
 								description={
 								   ["Used the ASP.NET MVC framework to create and maintain intranet web apps used by corporate employees across the firm worldwide",
-								   "Used SQL Server and to use tables, views, linked servers, and stored procedures in order to populate the front end",
+								   "Used SQL Server tables, views, linked servers, and stored procedures in order to populate the front end",
 								   "Used the Kendo ASP.NET MVC framework in order to populate grids, tables, dropdownlists",
 								   "Migrate multiple apps from SIG intranet to Azure Cloud",
 								   "Created C# console apps to automate data updates across multiple apps",
@@ -120,7 +120,7 @@ class App extends React.Component {
 								   "Write auto grading scripts to assist in the grading process",
 								   "Assist students with their individual freshman design projects",
 								   "Have office hours where students can receive individualized help",
-								   "Shepard groups in a lab section to ensure they are completing required tasks"
+								   "Shepherd groups in a lab section to ensure they are completing required tasks"
 								]}/>
 				</section>
 				
