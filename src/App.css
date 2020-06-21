@@ -68,9 +68,9 @@ li{
 
 @media screen and (max-width: 800px){
 	section{
-	  padding-left: 5%;
-	  padding-right: 5%;	
-	  margin-left: 5%;
-	  margin-right: 5%;
+	  padding-left: 3%;
+	  padding-right: 3%;	
+	  margin-left: 3%;
+	  margin-right: 3%;
 	}
 }

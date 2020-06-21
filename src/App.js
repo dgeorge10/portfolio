@@ -6,6 +6,7 @@ import Skills from './components/skills/skills.js';
 import Experience from './components/experience/experience.js';
 
 import Slide from 'react-reveal/Slide';
+import { Container, Row, Col } from 'reactstrap';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -237,19 +238,28 @@ class App extends React.Component {
 
 				<section id="contact-section">
 					<h1 className="section-header">contact me</h1>	
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
-					
-					 <a href="mailto:djg365@drexel.edu"><p id="email">djg365@drexel.edu</p></a>
-					 <a href="https://github.com/dgeorge10">
-						<img className="contact-icon" id="contact-icon" alt="github" src={github_link} />
-					 </a>
-					 <a href="http://twitter.com/dennisgeorge07">
-						<img className="contact-icon" alt="twitter" src={twitter_link} />
-					 </a>
-
-					 <a href="https://www.linkedin.com/in/dennis-george-34aa4415a/">
-						<img className="contact-icon" alt="linkedin" src={linkedin_link} />
-					 </a>
+					<Container fluid>
+						<Row>
+							<Col lg="6">
+							  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+							  
+								 <a href="mailto:djg365@drexel.edu"><p id="email">djg365@drexel.edu</p></a>
+							</Col>
+						</Row>
+						<Row>
+						   <Col>
+							  <a href="https://github.com/dgeorge10">
+								 <img className="contact-icon" id="contact-icon" alt="github" src={github_link} />
+							  </a>
+							  <a href="http://twitter.com/dennisgeorge07">
+								 <img className="contact-icon" alt="twitter" src={twitter_link} />
+							  </a>
+							  <a href="https://www.linkedin.com/in/dennis-george-34aa4415a/">
+								 <img className="contact-icon" alt="linkedin" src={linkedin_link} />
+							  </a>
+						   </Col>
+						</Row>
+					</Container>
 				</section>
 				
 
