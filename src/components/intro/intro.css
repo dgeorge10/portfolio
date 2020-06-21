@@ -46,7 +46,51 @@ h6 {
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 700px){
+   #intro {
+	  font-family: inherit;
+	  color: #F5EFE9; 
+	  background-color: #262626 !important;
+	  height: 100vh;
+	  overflow: hidden;
+	  border: 16px solid #B15353;
+	  box-sizing: border-box;
+   }
+
+
+   #profile-pic-container{
+	  position: relative;
+	  height: 50vh;
+	  margin: 0 auto;
+   }
+
+   #profile-pic {
+	  position:relative;
+	  max-width: 90vmin;
+	  max-height: 90vmin;
+	  border-radius: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+   }
+
+   #i-am-a-container{
+	  position: relative;
+	  height: 30vh;
+	  margin: 0 auto;
+	  text-align: center;
+   }
+
+   h1 {
+	  font-size: 32px !important;
+   }
+
+   h6 {
+	  font-size: 16px !important;
+   }
+}
+
+@media screen and (max-width: 1000px){
    #intro {
 	  font-family: inherit;
 	  color: #F5EFE9; 

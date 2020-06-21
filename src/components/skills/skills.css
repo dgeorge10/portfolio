@@ -1,3 +1,18 @@
-#skill-icons{
-	padding-left:10%;	
+.skill-icon {
+   width: 8vmin;
+   height: 8vmin;
+   padding: 8px;
+   filter: invert(52%) sepia(0%) saturate(2875%) hue-rotate(140deg) brightness(97%) contrast(104%);
+   transition: .8s;
+}
+
+.skill-icon:hover {
+   filter: invert(43%) sepia(27%) saturate(6796%) hue-rotate(323deg) brightness(101%) contrast(98%);
+}
+
+@media screen and (max-width: 800px) {
+   .skill-icon {
+	  width: 7vmin;
+	  height: 7vmin;
+   }
 }
