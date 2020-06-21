@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec0415b9.chunk.css",
-    "main.js": "/portfolio/static/js/main.26ca24fa.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.26ca24fa.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.43d2dc10.chunk.css",
+    "main.js": "/portfolio/static/js/main.e9d7d57b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e9d7d57b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
     "static/css/2.f35c8c9b.chunk.css": "/portfolio/static/css/2.f35c8c9b.chunk.css",
-    "static/js/2.e3278da9.chunk.js": "/portfolio/static/js/2.e3278da9.chunk.js",
-    "static/js/2.e3278da9.chunk.js.map": "/portfolio/static/js/2.e3278da9.chunk.js.map",
+    "static/js/2.d05a75a2.chunk.js": "/portfolio/static/js/2.d05a75a2.chunk.js",
+    "static/js/2.d05a75a2.chunk.js.map": "/portfolio/static/js/2.d05a75a2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b3654e2a24919eadbf2ba5eaf92a7828.js": "/portfolio/precache-manifest.b3654e2a24919eadbf2ba5eaf92a7828.js",
+    "precache-manifest.bf0a3cc8b22a5bb057b985a6b85a1f6c.js": "/portfolio/precache-manifest.bf0a3cc8b22a5bb057b985a6b85a1f6c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.f35c8c9b.chunk.css.map": "/portfolio/static/css/2.f35c8c9b.chunk.css.map",
-    "static/css/main.ec0415b9.chunk.css.map": "/portfolio/static/css/main.ec0415b9.chunk.css.map",
-    "static/js/2.e3278da9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e3278da9.chunk.js.LICENSE.txt",
+    "static/css/main.43d2dc10.chunk.css.map": "/portfolio/static/css/main.43d2dc10.chunk.css.map",
+    "static/js/2.d05a75a2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d05a75a2.chunk.js.LICENSE.txt",
     "static/media/csharp.svg": "/portfolio/static/media/csharp.0100bdf0.svg",
     "static/media/css.svg": "/portfolio/static/media/css.4be17546.svg",
     "static/media/git.svg": "/portfolio/static/media/git.a5030cf4.svg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
     "static/css/2.f35c8c9b.chunk.css",
-    "static/js/2.e3278da9.chunk.js",
-    "static/css/main.ec0415b9.chunk.css",
-    "static/js/main.26ca24fa.chunk.js"
+    "static/js/2.d05a75a2.chunk.js",
+    "static/css/main.43d2dc10.chunk.css",
+    "static/js/main.e9d7d57b.chunk.js"
   ]
 }
