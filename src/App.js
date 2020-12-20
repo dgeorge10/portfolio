@@ -76,14 +76,20 @@ class App extends React.Component {
 				<section id="awards-section">
 					<h1 className="section-header">awards</h1>	
 					<div>
-					<h2>Philly Codefest 2019</h2>
-					<ul id="awards-list">
-						<li>Best Hack for Social Good</li>
-						<li>People's Choice Award</li>
-						<li>American Water Volunteer App - Give/Receive Together</li>
-						<li>Google Best Use of Google Cloud Platform</li>
-						<li>Comcast Low Cost Internet for Students</li>
-					</ul>
+						<h2>Philly Codefest 2020</h2>
+						<ul id="awards-list">
+							<li>Philly Codefest 2020 Student team Award</li>
+							<li>American Water Volunteer App - Predicting Water Usage needs based on the weather</li>
+			 				<li><a target="_blank" rel="noopener noreferrer"  href="https://devpost.com/software/watery-doing-in-philly">Check it out!</a></li>
+			 			</ul>
+						<h2>Philly Codefest 2019</h2>
+						<ul id="awards-list">
+							<li>Best Hack for Social Good</li>
+							<li>People's Choice Award</li>
+							<li>American Water Volunteer App - Give/Receive Together</li>
+							<li>Google Best Use of Google Cloud Platform</li>
+							<li>Comcast Low Cost Internet for Students</li>
+						</ul>
 					</div>
 				</section>
 
@@ -128,6 +134,24 @@ class App extends React.Component {
 					<h1 className="section-header">projects</h1>	
 					<div id="project-timeline">
 					<VerticalTimeline>
+
+						<VerticalTimelineElement
+						   className="vertical-timeline-element--work"
+						   contentStyle={{ background: '#B15353', color: '#fff' }}
+						   contentArrowStyle={{ borderRight: '7px solid #B15353' }}
+						   date="December 2020"
+						   iconStyle={{ background: '#B15353', color: '#fff' }}
+						>
+						   <h3 className="vertical-timeline-element-title">Watery doing in Philly</h3>
+						   <h4 className="vertical-timeline-element-subtitle">Side Project</h4>
+						   <ul>
+								<li>All-in-one water consumption dashboard that leverages a novel IoT hardware solution that can easily be placed on water outlets to visualize water usage and compete against friends in water reduction.</li>
+						   </ul>
+						   <a href="http://github.com/dgeorge10/codefest-2020">
+							<img className="github-link" src={github_link} alt="github"/>
+						   </a>
+						</VerticalTimelineElement>
+
 
 						<VerticalTimelineElement
 						   className="vertical-timeline-element--work"
@@ -238,16 +262,15 @@ class App extends React.Component {
 
 				<section id="contact-section">
 					<h1 className="section-header">contact me</h1>	
-					<Container fluid>
+					<Container>
 						<Row>
 							<Col lg="6">
 							  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
 							  
 								 <a href="mailto:djg365@drexel.edu"><p id="email">djg365@drexel.edu</p></a>
 							</Col>
-						</Row>
-						<Row>
-						   <Col>
+						   <Col lg="6">
+			 				<div style={{paddingTop: "10px"}}>
 							  <a href="https://github.com/dgeorge10">
 								 <img className="contact-icon" id="contact-icon" alt="github" src={github_link} />
 							  </a>
@@ -257,6 +280,7 @@ class App extends React.Component {
 							  <a href="https://www.linkedin.com/in/dennis-george-34aa4415a/">
 								 <img className="contact-icon" alt="linkedin" src={linkedin_link} />
 							  </a>
+			 				</div>
 						   </Col>
 						</Row>
 					</Container>
