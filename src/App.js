@@ -95,7 +95,25 @@ class App extends React.Component {
 
 				<section id="experiences-section">
 					<h1 className="section-header">experiences</h1>
-					<Experience name="Susquehanna International Group, LLC" 
+						<Experience name="Susquehanna International Group, LLC" 
+								dates="September 2020 - Present"
+								title="Full Stack Developer on SOT(Strategic Options Trading) News Development"
+								description={[
+								"Provide solutions to an existing real-time trading system",
+								"Use React.js and C# to work on a full stack trading platform that supports real-time trading with proprietary strategies"
+							]}/>
+
+						<Experience name="Susquehanna International Group, LLC" 
+								dates="September 2019 - April 2020"
+								title="Software Developer on Instruments"
+								description={["Created applications that process large amounts of external client reference data and transform it into high quality database centered sets to be used by internal clients",
+								"Added schema changes to internal tables so the firm could begin trading new Canadian Options",
+								"Added API endpoint for other teams in the firm to create OTC Options in the database",
+								"Rewrote an application which replaced multiple $10,000 computers. Multiple teams relied on the accuracy of this data for their production environment",
+								"Worked with multiple downstream teams in order to figure out project requirements"]}/>
+
+
+						<Experience name="Susquehanna International Group, LLC" 
 								dates="September 2018 - April 2019"
 								title="Full Stack Developer on Corporate Applications"
 								description={
@@ -109,25 +127,16 @@ class App extends React.Component {
 								   ]}/>
 
 
-					<Experience name="Susquehanna International Group, LLC" 
-								dates="September 2019 - April 2020"
-								title="Software Developer on Instruments"
-								description={["Created applications that process large amounts of external client reference data and transform it into high quality database centered sets to be used by internal clients",
-								"Added schema changes to internal tables so the firm could begin trading new Canadian Options",
-								"Added API endpoint for other teams in the firm to create OTC Options in the database",
-								"Rewrote an application which replaced multiple $10,000 computers. Multiple teams relied on the accuracy of this data for their production environment",
-								"Worked with multiple downstream teams in order to figure out project requirements"]}/>
-
 					<Experience name="Drexel University" 
-								dates="April 2019 - Present"
-								title="Teaching Assistant"
-								description={[
-								   "Assist students in a core Sophomore year computer science course",
-								   "Write auto grading scripts to assist in the grading process",
-								   "Assist students with their individual freshman design projects",
-								   "Have office hours where students can receive individualized help",
-								   "Shepherd groups in a lab section to ensure they are completing required tasks"
-								]}/>
+							dates="April 2019 - September 2021"
+							title="Teaching Assistant"
+							description={[
+								"Assist students in a core Sophomore year computer science course",
+								"Write auto grading scripts to assist in the grading process",
+								"Assist students with their individual freshman design projects",
+								"Have office hours where students can receive individualized help",
+								"Shepherd groups in a lab section to ensure they are completing required tasks"
+							]}/>
 				</section>
 				
 				<section id="projects-section">
