@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import me from '../../assets/me.jpg';
+import dennis from '../../assets/dennis.JPG'
 
 import './intro.css';
 
@@ -13,7 +14,7 @@ export default class Introduction extends React.Component {
 				  <Row>
 					<Col lg="6">
 						<div id="profile-pic-container">
-						   <img id="profile-pic" src={me} alt="personality pic"/> 	
+						   <img id="profile-pic" src={dennis} alt="personality pic"/> 	
 						</div>
 					</Col>
 					<Col lg="6">
