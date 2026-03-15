@@ -13,6 +13,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import github_link from './assets/github-link.svg';
 import twitter_link from './assets/twitter-link.svg';
 import linkedin_link from './assets/linkedin-link.svg';
+import riven from './assets/riven.jpg';
 
 class App extends React.Component {
 	constructor(props){
@@ -40,10 +41,8 @@ class App extends React.Component {
 				<section id="about-me-section">
 					<h1 className="section-header">about me</h1>	
 				  	<p className="section-body-text">
-						I am an honors student at Drexel University majoring in Computer Science. 
-						It has always been my dream to work as a senior developer one day. I've
-						done a lot of preparation to achieve this goal, and I am finally ready
-						for real world experience.
+						I was an honors student at Drexel University that majored in Computer Science.
+            I took 20 credits a term to finish the 5 year program in only 4.
 						<br />
 						<br />
 						I grew up in South Jersey, about 10 minutes from the beach. As soon as I
@@ -54,27 +53,34 @@ class App extends React.Component {
 						college instead of being with Arts & Sciences.
 						<br />
 						<br />
-						Ever since, I have been in love with Philly, and am excited for what the
-						future holds!
+						Ever since, I have been in love with Philly. I connect with the grit, the passion, the realness. 
+            I got married in Philly in 2025, and now live in Fishtown.
 						<br />
-					 Here are some of my current favorite things:
+            A few fun facts about me:
 				  	</p>
 					 <ul>
-						   <li>Playing Cherry Wine - Hozier on Guitar</li>
-						   <li>Falling asleep on the beach</li>
-						   <li>Playing VALORANT</li>
-						   <li>Since I've Been Loving You - Led Zeppelin</li>
-						   <li>Researching AI/ML algorithms</li>
+						   <li>I can solve a Rubik's cube in less than 60 seconds.</li>
+						   <li>I have been playing coed 7v7 soccer on a team called the Thunder Ducks for the past 4 years.</li>
+						   <li>I can cook a mean cheesesteak. I used to make the best cheesesteaks on the Ocean City Boardwalk. This is where I met my beautiful wife, Kirstin</li>
+						   <li>I have a 4.5 year old Australian Shepherd named Riven. He smiles when he is happy.</li>
+
+							<img src={riven} alt="riven" style={{width: "400px", height:"auto"}}/>
+						   <li>I was at the <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=FKcSEGnCID8">Harper! The swing of his life!</a> game in 2022.</li>
+						   <li>I witnessed the Ritz Carlton awning collapse in 2017 when the Eagles won their first Super Bowl.</li>
+						   <li>If I could choose to be any part of a salad, it would be the crouton.</li>
 					 </ul>
 				</section>
 
 				<section id="skills-section">
 					<h1 className="section-header">skills</h1>	
 					<Skills />	
+        <p>and more ...</p>
 				</section>
 				
 				<section id="awards-section">
 					<h1 className="section-header">awards</h1>	
+          <p>While I was in college, I did some fun projects & won some fun awards!</p>
+       <br />
 					<div>
 						<h2>Philly Codefest 2020</h2>
 						<ul id="awards-list">
@@ -95,6 +101,18 @@ class App extends React.Component {
 
 				<section id="experiences-section">
 					<h1 className="section-header">experiences</h1>
+
+					<Experience name="Susquehanna International Group, LLC" 
+								dates="September 2021 - Present"
+								title="Full Stack Developer on Corporate Applications"
+								description={
+								   ["Lead developer for the firm’s next-generation research platform, designing and implementing core infrastructure used by research and traders.",
+  "Build full stack applications with hundreds of daily users globally that translate complex research data into intuitive interfaces used by traders and researchers for decision-making.",
+  "Collaborated with trading desks, research analysts, and technical teams to build internal tools supporting business workflows and decision processes.",
+  "Develop machine learning pipelines to automatically categorize complex datasets, incorporating user feedback for continuous improvement.",
+  "Develop systems that ingest real-time news from external vendors and deliver it to traders and researchers, supporting rapid analysis and decision-making."
+								   ]}/>
+
 					<Experience name="Susquehanna International Group, LLC" 
 								dates="September 2018 - April 2019"
 								title="Full Stack Developer on Corporate Applications"
@@ -131,7 +149,7 @@ class App extends React.Component {
 				</section>
 				
 				<section id="projects-section">
-					<h1 className="section-header">projects</h1>	
+					<h1 className="section-header">college projects</h1>	
 					<div id="project-timeline">
 					<VerticalTimeline>
 
@@ -267,15 +285,12 @@ class App extends React.Component {
 							<Col lg="6">
 							  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
 							  
-								 <a href="mailto:djg365@drexel.edu"><p id="email">djg365@drexel.edu</p></a>
+								 <a href="mailto:djg365@drexel.edu"><p id="email">dennisgeorge10@gmail.com</p></a>
 							</Col>
 						   <Col lg="6">
 			 				<div style={{paddingTop: "10px"}}>
 							  <a href="https://github.com/dgeorge10">
 								 <img className="contact-icon" id="contact-icon" alt="github" src={github_link} />
-							  </a>
-							  <a href="http://twitter.com/dennisgeorge07">
-								 <img className="contact-icon" alt="twitter" src={twitter_link} />
 							  </a>
 							  <a href="https://www.linkedin.com/in/dennis-george-34aa4415a/">
 								 <img className="contact-icon" alt="linkedin" src={linkedin_link} />
