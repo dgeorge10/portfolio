@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d17085b3b9a27497963e11968fef40fa",
+    "revision": "fc5413e31397c7e4dfc94b3247e492e3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "dd1276919ed5efc9aa9a",
-    "url": "/portfolio/static/css/2.f35c8c9b.chunk.css"
+    "revision": "a13bfe1d026eaebe1142",
+    "url": "/portfolio/static/css/2.e53f431d.chunk.css"
   },
   {
-    "revision": "72f657895babc6e7368d",
-    "url": "/portfolio/static/css/main.43d2dc10.chunk.css"
+    "revision": "ca1d1af91823353c97ad",
+    "url": "/portfolio/static/css/main.f03e42b2.chunk.css"
   },
   {
-    "revision": "dd1276919ed5efc9aa9a",
-    "url": "/portfolio/static/js/2.d05a75a2.chunk.js"
+    "revision": "a13bfe1d026eaebe1142",
+    "url": "/portfolio/static/js/2.1d51118c.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.d05a75a2.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1d51118c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72f657895babc6e7368d",
-    "url": "/portfolio/static/js/main.c5c8a7e0.chunk.js"
+    "revision": "ca1d1af91823353c97ad",
+    "url": "/portfolio/static/js/main.026fb7e5.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4be1754633b81914cfaad2f5e4fbe0b9",
     "url": "/portfolio/static/media/css.4be17546.svg"
+  },
+  {
+    "revision": "de857da5600468ca40261673fc869106",
+    "url": "/portfolio/static/media/dennis.de857da5.JPG"
   },
   {
     "revision": "a5030cf4ec167ed8c7caeb3068691891",
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "84ef1142b42f90a13ceb04c3235dd7e9",
     "url": "/portfolio/static/media/python.84ef1142.svg"
+  },
+  {
+    "revision": "f7c7406ba027bb6bfe2a3383ecfd5fa4",
+    "url": "/portfolio/static/media/riven.f7c7406b.jpg"
   },
   {
     "revision": "389868939774d6e992344bc2e6fcf62c",
